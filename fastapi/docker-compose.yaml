@@ -1,0 +1,6 @@
+services:
+  greet:
+    image: local/greet:latest
+    build: .
+    ports:
+      - 8080:8080
